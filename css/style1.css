@@ -1,0 +1,55 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+html * {
+    background-color: black;
+}
+
+body{
+    padding: 30px;
+    font-family: tempus sans itc;
+    background-color: black (0, 0, 0);
+}
+.block {
+    background-color: black;
+    border: 5px solid black;
+    max-width: 2000px;
+    margin: 0px auto;
+    height: 800px;
+}
+.block div{
+    padding: 30px;
+    line-height: 50px;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    text-decoration: underline;
+    background-color: black;
+    color: fuchsia;
+}
+
+h1 {
+    color: fuchsia;
+    padding-left: 200px;
+    text-shadow: #000000 1px 0px, #000000 1px 1px, #000000 0px 1px, #000000 -1px 1px, #000000 -1px 0px, #000000 -1px -1px, #000000 0px -1px, #000000 1px -1px, #000000 0 0 3px, #000000 0 0 3px, #000000 0 0 3px, #000000 0 0 3px; 
+    font-size: 42px; 
+    text-decoration: underline;
+}
+
+a {
+    color: fuchsia; /* Цвет обычной ссылки */ 
+    text-decoration: none; /* Убираем подчёркивание у ссылок */
+}
+a:visited {
+    color: fuchsia (255, 0, 0); /* Цвет посещённой ссылки */
+} 
+a:hover {
+    color: fuchsia; /* Цвет ссылки при наведении */ 
+    text-decoration: underline; /* Добавляем подчёркивание */
+}
+
+.vk {
+    color: fuchsia;
+    font-size: 20px;
+}
